@@ -1,0 +1,72 @@
+body {
+  font-family: Merriweather, serif;
+  background-color: #201401;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+header {
+  text-align: left;
+  margin: 50px 20px 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.descripcion {
+  font-size: 1.2rem;
+  color: #ffffff;
+  max-width: 600px;
+  margin: left;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  font-size: 2rem;
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #7cb5ff; /*LinkedIn*/
+}
+
+.social-icons a:first-child:hover {
+  color: #a7a7a7; /*GitHub*/
+}
+
+main {
+  max-width: 700px;
+  width: 100%;
+  padding: 20px;
+}
+
+h2 {
+ font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+
+h3 {
+  margin-top: 0;
+  color: #ff4848;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #777;
+}
